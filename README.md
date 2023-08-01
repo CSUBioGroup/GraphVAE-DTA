@@ -149,15 +149,15 @@ Table 2: The performance (results) of proposed model on KIBA dataset under the r
 
 ## 🥇 Contribution
 The main contribution of our study are outlined below.  
-I. The porposed model offers two functions (affinity prediction and novel drug generation)
-II. We considered a natural representation of drugs in the form of graphs with a comprehensive set of atom feature.
-III. Dealing with the Multi-Task Learning environment (MTL), we introduced the FetterGards optimization algorithm to tackle the general challenges of MTL, such as conflicting gradients.
-IV. The proposed model achieved the least Means Square Error in the affinity prediction task compared to the previous baseline models. 
+I. The porposed model offers two functions (affinity prediction and novel drug generation)  
+II. We considered a natural representation of drugs in the form of graphs with a comprehensive set of atom feature.  
+III. Dealing with the Multi-Task Learning environment (MTL), we introduced the FetterGards optimization algorithm to tackle the general challenges of MTL, such as conflicting gradients.  
+IV. The proposed model achieved the least Means Square Error in the affinity prediction task compared to the previous baseline models.   
 
 ## 📧 Contact
 Have a question? or suggestion Feel free to reach out to me!.  
 
-**📨 Email:** [Connect with me](pirmasoomshah@gmail.com)
+**📨 Email:** [Connect with me](pirmasoomshah@gmail.com)  
 **🌐 Website:** [Pir Masoom Shah](https://sites.google.com/view/pirmasoomshah)
 
 ## 📜 Reference
