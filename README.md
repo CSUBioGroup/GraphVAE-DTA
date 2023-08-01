@@ -69,12 +69,12 @@ The whole implementation of GraphVAE-DTA is based on PyTorch.
 + create_data.py: This script generates data in PyTorch format.   
 + utils.py: This particular module offers a range of helpful functions and classes that are utilized by other scripts present in the codebase. One such class is the TestbedDataset, used explicitly by create_data.py to create data in PyTorch format.  
 + training.py: This module will train the GraphVAEDTA model.
-+ models.py: This module receives graph data as input for drugs while sequencing data for protein with corresponding actual labels (Affinity values). 
-+ FetterGrads.py: This script FetterGrad.py is the implementation of our proposed algorithm Fetter Gradients.  
-+ test.py: The script test.py is utilized to assess the performance of our saved models.  
++ models.py: Proposed Model. 
++ FetterGrads.py: This script FetterGrad.py is the implementation of Fetter Gradients algorithm .  
++ test.py: The script test.py can be used the test the saved models on test set.  
 
 ## ⚙️ Installation and Requirements
-You'll need to run the following commands in order to run the codes
+You  need to run the following commands in order to run the codes
 ```sh
 conda env create -f environment.yml  
 ```
