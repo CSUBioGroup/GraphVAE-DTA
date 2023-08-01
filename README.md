@@ -107,7 +107,7 @@ pip install torch-geometric==2.2.0
 
 
 ## 🤖🎛️ Training
-The GraphVAE-DTA is trained using PyTorch and PyTorch Geometric libraries, with the support of NVIDIA GeForce RTX 2080 Ti GPU for the back-end hardware.
+The GraphVAE-DTA is trained using PyTorch and PyTorch Geometric libraries, with the support of NVIDIA GeForce RTX 2080 Ti GPU as the back-end hardware.
 
 i.Create Data
 ```sh
