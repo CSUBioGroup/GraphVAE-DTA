@@ -157,8 +157,8 @@ IV. The proposed model achieved the least Means Square Error in the affinity pre
 ## 📧 Contact
 Have a question? or suggestion Feel free to reach out to me!.  
 
-**📨 Email:** [Connect with me](pirmasoomshah@gmail.com)  
-**🌐 Website:** [Pir Masoom Shah](https://sites.google.com/view/pirmasoomshah)
+**📨 Email:** [pirmasoomshah@gmail.com](pirmasoomshah@gmail.com)  
+**🌐 Webpage:** [Pir Masoom Shah](https://sites.google.com/view/pirmasoomshah)
 
 ## 📜 Reference
 paper reference
