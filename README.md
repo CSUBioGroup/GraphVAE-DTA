@@ -7,13 +7,12 @@ Our proposed framework, GraphVAE-DTA, is based on Variational Graph AutoEncoder 
 2. [🔍 Dataset](#dataset)  
 3. [🧠 Model Architecture](#model-architecture) 
 4. [📁 Source codes](#sourcecode) 
-5. [⚙️ Installation and Requirements](#installation)  
-6. [🚀 Usage](#usage)  
-7. [🤖🎛️ Training](#training)  
-8. [📊 Results](#results)  
-9. [🥇 Contribution](#contribution)  
-10. [📧 Contact](#contact)  
-11. [🙏 Acknowledgments](#acknowledgments)  
+5. [⚙️ Installation and Requirements](#installation)   
+6. [🤖🎛️ Training](#training)  
+7. [📊 Results](#results)  
+8. [🥇 Contribution](#contribution)  
+9. [📧 Contact](#contact)  
+10. [🙏 Acknowledgments](#acknowledgments)  
 
 
 ## 🔍 Datasets:
@@ -105,8 +104,7 @@ pip install torch-spline-conv==1.2.1+pt112cu102
 pip install torch-geometric==2.2.0
 ```
 
-## 🚀 Usage
-write it please.
+
 
 ## 🤖🎛️ Training
 The GraphVAE-DTA is trained using PyTorch and PyTorch Geometric libraries, with the support of NVIDIA GeForce RTX 2080 Ti GPU for the back-end hardware.
