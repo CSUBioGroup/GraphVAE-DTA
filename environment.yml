@@ -1,0 +1,29 @@
+name: GraphVAEDTA
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - ase
+  - cudatoolkit=11.0
+  - googledrivedownloader
+  - h5py
+  - jinja2
+  - networkx
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - python=3.8
+  - python-louvain
+  - pytorch=1.7
+  - rdflib
+  - requests
+  - scikit-learn
+  - scipy
+  - torchaudio
+  - torchvision
+  - tqdm
+  
