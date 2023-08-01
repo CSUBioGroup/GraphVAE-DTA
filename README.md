@@ -62,7 +62,7 @@ from the original drug features, providing a new representation of each drug. Ho
 
 4. 🎯 **Prediction (AP-BLOCK)**: Our model's prediction block utilizes the extracted features from both the Drug Encoder (PMVO) and GCNN for target proteins. These features are concatenated and then passed through the designed architecture for predicting affinity.
 
-![Model](model.jpg)
+![Model](model.png)
 
 ## 📁 Source codes:
 The whole implementation of GraphVAE-DTA is based on PyTorch.  
