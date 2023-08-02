@@ -22,11 +22,13 @@ The dataset files were downloaded from https://github.com/hkmztrk/DeepDTA/tree/m
 **Davis**    
 + **DAVIS dataset:**  
 Davis dataset has the following files:
+
 Labels (Y), ligands_can.txt, and proteins.txt which are located in the data/davis/ directory.  
 test_fold_setting1.txt, train_fold_setting1.txt which are located in the data/davis/folds/ directory.  
 **KIBA**   
 + **KIBA dataset:**
-KIBA dataset has the following files
+KIBA dataset has the following files:
+
 Labels (Y), ligands_can.txt, and proteins.txt which are located in the data/kiba/ directory.  
 test_fold_setting1.txt, train_fold_setting1.txt which are located in the data/kiba/folds/ directory.  
 ### Preprocessing:
