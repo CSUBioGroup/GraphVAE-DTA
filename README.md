@@ -1,6 +1,6 @@
 # GraphVAE-DTA
 ## 💡 Description
-Our proposed framework, GraphVAE-DTA, is based on Variational Graph AutoEncoder (Graph-VAE) and Gated Convolutional Neural Network (Gated-CNN). To predict the interactions between drugs and proteins and generate new variants of drugs with a strong affinity with existing proteins. We used Graph-VAE to handle graph data (i.e., drug compounds) and Gated-CNN to extract features from target protein sequences. Since the model performs two tasks under the multitask learning environment. Which usually suffers from optimization issues such as conflicting gradients. Therefore we also integrated the Fetter Gradients (FetterGards) algorithm into our model to address this concern—the FetterGards algorithm successfully mitigates any potential conflicts that may arise among the tasks gradients during training.
+This is the implementation of GraphVAE-DTA, which is composed of Variational Graph AutoEncoder (Graph-VAE) and Gated Convolutional Neural Network (Gated-CNN), and fully connected layers (regression block). The GraphVAE-DTA predicts the drug-target interactions with the least error rate than the baseline and generates new variants of drugs with high affinity to existing proteins. The proposed model takes advantage of Graph-VAE to extract features from graph data (i.e., drug) while Gated-CNN handles the target protein sequences. Since the model performs two tasks (i-e, affinity prediction, and novel drugs generation) simultaneously under the multitask learning environment. Such environments typically suffer from optimization issues such as conflicting gradients. Therefore we also introduced and integrated the Fetter Gradients (FetterGards) optimization model into our model to address this concern—the FetterGards algorithm successfully mitigates any potential conflicts that may arise among the task gradients during training.
 
 ## 📋 Table of Contents
 1. [💡 Description](#description)  
@@ -21,14 +21,16 @@ The dataset files were downloaded from https://github.com/hkmztrk/DeepDTA/tree/m
 ### Description:
 **Davis**    
 + **DAVIS dataset:**  
-Labels (Y), ligands_can.txt, and proteins.txt are located in the data/davis/ directory.  
-test_fold_setting1.txt, train_fold_setting1.txt are located in the data/davis/folds/ directory.  
+Davis dataset has the following files:
+Labels (Y), ligands_can.txt, and proteins.txt which are located in the data/davis/ directory.  
+test_fold_setting1.txt, train_fold_setting1.txt which are located in the data/davis/folds/ directory.  
 **KIBA**   
-+ **KIBA dataset:**  
-Labels (Y), ligands_can.txt, and proteins.txt are located in the data/kiba/ directory.  
-test_fold_setting1.txt, train_fold_setting1.txt are located in the data/kiba/folds/ directory.  
++ **KIBA dataset:**
+KIBA dataset has the following files
+Labels (Y), ligands_can.txt, and proteins.txt which are located in the data/kiba/ directory.  
+test_fold_setting1.txt, train_fold_setting1.txt which are located in the data/kiba/folds/ directory.  
 ### Preprocessing:
-During the dataset preprocessing phase, we merged the training data from 5 folds into a CSV file (i.e.,dataset_train.csv). Similarly, we created another CSV file (i.e.,dataset_test.csv) from the test-fold as the testing set. Afterwards, we converted these CSV files into PyTorch format to take advantage of its advanced capabilities for training neural networks.
+During the dataset preprocessing phase, we merged the training data from 5 folds into a CSV file (i.e.,dataset_train.csv). Similarly, we created another CSV file (i.e.,dataset_test.csv) from the test-fold as the testing set. Afterwards, we converted these CSV files into PyTorch format.
 ### Dataset Size:
 **Davis size**
 + The Davis dataset consists of a total of 30056 interactions.
