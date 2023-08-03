@@ -33,15 +33,15 @@ Labels (Y), ligands_can.txt, and proteins.txt which are located in the data/kiba
 test_fold_setting1.txt, train_fold_setting1.txt which are located in the data/kiba/folds/ directory.  
 ### Preprocessing:
 During the dataset preprocessing phase, we merged the training data from 5 folds into a CSV file (i.e.,dataset_train.csv). Similarly, we created another CSV file (i.e.,dataset_test.csv) from the test-fold as the testing set. Afterwards, we converted these CSV files into PyTorch format.
-### Dataset Size:
+### Datasets Size:
 **Davis size**
-+ The Davis dataset consists of a total of 30056 interactions.
-+ The training set of Davis is consists of a total 25042 interactions
-+ The testing set of Davis is consists of a total 5010 interactions  
-**Davis size**
++ The Davis dataset consists of the total of 30056 interactions.
++ The training set of Davis is consists of 25042 interactions in total.
++ The testing set of Davis is consists of a total 5010 interactions.  
+**KIBA size**
 + The KIBA dataset consists of a total of 118254 interactions.
-+ The training set of KIBA is consists of a total 98545 interactions
-+ The testing set of KIBA is consists of a total 19709 interactions   
++ The training set is composed of total 98545 interactions.
++ The testing set is consists of total 19709 interactions.  
 ### Sample Entry:
 + **Sample ID:** 12345  
 + **Drug SMILES:** CC(=O)Nc1cnc2[nH]cnc2c1N  
